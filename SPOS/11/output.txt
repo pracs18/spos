@@ -1,0 +1,55 @@
+admin-15@ubuntu:~/Desktop$ gcc exam.c
+admin-15@ubuntu:~/Desktop$ ./a.out
+1.ps
+2.fork
+3.wait
+4.execv
+5.join
+1
+
+#ps#
+  PID TTY          TIME CMD
+ 3336 pts/1    00:00:00 bash
+ 3357 pts/1    00:00:00 a.out
+ 3358 pts/1    00:00:00 sh
+ 3359 pts/1    00:00:00 ps
+admin-15@ubuntu:~/Desktop$ ./a.out
+1.ps
+2.fork
+3.wait
+4.execv
+5.join
+2
+
+**********fork**********
+Hii
+Parent id = 3360 Child id=3361
+Hii
+Parent = 3360 Child = 3361
+admin-15@ubuntu:~/Desktop$ ./a.out
+1.ps
+2.fork
+3.wait
+4.execv
+5.join
+3
+
+**********fork**********
+Hii
+Parent id = 3362 Child id=3363
+Hii
+Parent = 3362 Child = 3363
+waiting process terminated3363admin-15@ubuntu:~/Desktop$ ./a.out
+1.ps
+2.fork
+3.wait
+4.execv
+5.join
+4
+
+**********fork**********
+Hii
+Hii
+in child processadmin-15@ubuntu:~/Desktop$ join emp.txt temp.txt
+pccoe 1 hr 10 hr 100 ask
+

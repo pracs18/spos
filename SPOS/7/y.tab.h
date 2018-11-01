@@ -1,0 +1,4 @@
+#define KEYWARD 257
+#define VARIABLE 258
+#define COMMA 259
+#define SEMICOLON 260
